@@ -1,0 +1,32 @@
+{
+  "name": "native-data-bridge",
+  "version": "0.0.2",
+  "description": "A unified data layer for React Native applications that bridges local sqlite and remote rest aPI data sources through common interface",
+  "keywords": [
+    "React Native",
+    "data bridge",
+    "sqlite",
+    "postgress",
+    "knex",
+    "api",
+    "integration",
+    "synchronization",
+    "offline",
+    "middleware"
+  ],
+  "homepage": "https://github.com/miketerry-org/native-data-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/miketerry-org/native-data-bridge/issues"
+  },
+  "license": "MIT",
+  "author": "Turbo Toolware llc",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "prettier": "onchange \"**/*.{js,ts,tsx,jsx,json,css,scss,md,html}\" -- prettier --write \"{{changed}}\""
+  }
+}
